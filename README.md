@@ -34,7 +34,7 @@ If revising this design, the primary focus would be **expanding the real-time ev
 ### Interpreting User Needs into System Design
 Translating stakeholder requirements into system architecture involved:
 1. **Persona & Role Mapping:** Distinguishing the distinct operational friction points of students (quick mobile booking, clear progress visibility) versus instructors (minimal administrative overhead, reliable calendar sync).
-2. **Workflow Deconstruction:** Breaking down complex interactions—such as scheduling an in-car lesson—into atomic, failure-resistant steps (validating pre-requisite course completion, checking instructor availability, holding the slot, and processing payment/confirmation).
+2. **Workflow Deconstruction:** Breaking down complex interactions into failure-resistant steps (validating pre-requisite course completion, checking instructor availability, holding the slot, and processing payment/confirmation).
 3. **Usability & Edge Cases:** Designing explicit fallback paths for late cancellations, session rescheduling, and failed transaction states.
 
 ### The Importance of User Needs in Software Architecture
